@@ -18,20 +18,42 @@ div[id^='uczen']{
     width: 100%;
 }
 #title{
-    line-height: 30px;
+    padding: 15px;
     background-color: #555555;;
 }
 #title span,
 div[id^='uczen'] > span,
 div[id^='uczen'] > input{
     text-align: center;
-    width: 10%;
+    width: 7%;
     display: inline-block;
     font-size: 18px;
+}
+#title > span:nth-child(1),
+#title > span:nth-child(9),
+div[id^='uczen'] span:first-of-type,
+div[id^='uczen'] > input[type="text"]{
+    width: 22%;
 }
 input{
     background-color: #222222;
     color: #aaaaaa;
     border: 0;
     text-align: center;
+}
+#oblicz{
+    margin: 30px auto;
+    width: 150px;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #0066cc;
+    border: 0;
+    color: #aaaaaa;
+}
+#oblicz:hover{
+    background-color: #3399ff;
+    text-shadow: 1px 1px black ;
+    transition: all 0.3s ease-in-out;
 }
