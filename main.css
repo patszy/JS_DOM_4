@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #222222;
+    color: #aaaaaa;
+    padding: 10px;
+}
+
+#pracownicy h2{
+    text-align: center;
+}
+#title,
+div[id^='uczen']{
+    margin: 10px 0px;
+    font-size: 0px;
+    width: 100%;
+}
+#title{
+    line-height: 30px;
+    background-color: #555555;;
+}
+#title span,
+div[id^='uczen'] > span,
+div[id^='uczen'] > input{
+    text-align: center;
+    width: 10%;
+    display: inline-block;
+    font-size: 18px;
+}
+input{
+    background-color: #222222;
+    color: #aaaaaa;
+    border: 0;
+    text-align: center;
+}
