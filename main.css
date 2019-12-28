@@ -57,3 +57,10 @@ input{
     text-shadow: 1px 1px black ;
     transition: all 0.3s ease-in-out;
 }
+
+.good{
+    background-color: #006600;
+}
+.bad{
+    background-color: maroon;
+}
