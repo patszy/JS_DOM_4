@@ -15,6 +15,7 @@ class Student{
 let tabStudent = [];
 
 function addStudent(){
+    tabStudent = [];
     let getStudent = document.querySelectorAll('[id^=uczen'), tabSubject = [];
     for(let i=0; i<getStudent.length; i++){
         tabSubject = getStudent[i].querySelectorAll('input[type=number]');
